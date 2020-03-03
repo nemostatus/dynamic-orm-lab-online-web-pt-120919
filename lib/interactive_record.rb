@@ -56,3 +56,4 @@ def self.find_by(attribute)
   SQL
 DB[:conn].execute(sql)
 end
+end 
