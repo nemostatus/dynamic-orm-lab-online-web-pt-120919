@@ -52,6 +52,6 @@ def self.find_by(attribute)
   column_names = attribute.keys[0].to_s 
   value_name = attribute.values[0]
   sql = <<-SQL
-  SELECT * FROM 
+  SELECT * FROM #{table_name}
 
 end
