@@ -53,5 +53,6 @@ def self.find_by(attribute)
   value_name = attribute.values[0]
   sql = <<-SQL
   SELECT * FROM #{table_name} WHERE column_name =?
+  SQL
 
 end
