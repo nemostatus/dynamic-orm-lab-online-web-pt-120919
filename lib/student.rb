@@ -40,6 +40,6 @@ end
 values.join(", ")
 end 
 def save 
-  
+  sql = "INSERT INTO "
 end 
 end 
