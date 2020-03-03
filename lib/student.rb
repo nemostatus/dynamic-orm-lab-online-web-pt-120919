@@ -31,3 +31,4 @@ def table_name_for_insert
 end 
 def col_name_for_instance
 end 
+end 
