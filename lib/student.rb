@@ -29,7 +29,7 @@ end
 def table_name_for_insert
   self.class.table_name
 end 
-def col_name_for_instance
+def col_names_for_insert
   
 end 
 end 
