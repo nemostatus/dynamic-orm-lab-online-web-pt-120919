@@ -54,5 +54,5 @@ def self.find_by(attribute)
   sql = <<-SQL
   SELECT * FROM #{table_name} WHERE column_name =?
   SQL
-
+DB[:conn]
 end
