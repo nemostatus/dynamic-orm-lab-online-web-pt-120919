@@ -39,4 +39,6 @@ def values_for_insert
 end 
 values.join(", ")
 end 
+def save 
+end 
 end 
