@@ -22,5 +22,5 @@ self.column_names.each do |col_names|
 end 
 
 def initialize(options = {})
-
+options.each do |property,value|
 end
