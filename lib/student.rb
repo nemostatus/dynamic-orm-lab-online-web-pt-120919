@@ -9,7 +9,7 @@ class Student < InteractiveRecord
   
   def self.column_names
     DB[:conn].results_as_hash = true
-    sql = "pragma info "
+    sql = "pragma table_info "
   end 
 
 end
