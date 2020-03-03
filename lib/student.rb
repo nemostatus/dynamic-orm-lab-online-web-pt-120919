@@ -23,5 +23,5 @@ end
 
 def initialize(options = {})
 options.each do |property,value|
-  self.send
+  self.send("property")
 end
