@@ -45,4 +45,5 @@ def save
   DB[:conn].execute(sql)
   @id =DB[:conn].execute("SELECT last_insert_rowid() FROM #{table_name_for_insert}")[0][0]
 end 
+self.find_by_name
 end 
