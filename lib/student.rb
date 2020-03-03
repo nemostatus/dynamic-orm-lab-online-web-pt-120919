@@ -40,6 +40,7 @@ end
 values.join(", ")
 end 
 def save 
-  sql = "INSERT INTO '#{table_name_for_insert}"
+  sql = "INSERT INTO '#{table_name_for_insert}
+  ('#{col_names_for_insert}'"
 end 
 end 
